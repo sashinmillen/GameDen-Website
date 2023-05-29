@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent linear-gradient(111deg, #B537F2 0%, #3788F2 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 100%;
+    color: white;
+    height: 443px;
+}
+
+.inputBar {
+    width: 275px;
+}
+
+@font-face {
+    font-family: ClashDisplay-Semibold;
+    src: url(../../fonts/ClashDisplay-Semibold.otf);
+  }
+
+.content h1 {
+    font-family: ClashDisplay-Semibold;
+}
+
+.content p {
+    font-family: 'Manrope Variable', sans-serif;
+    color: #CCCCCF;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .inputBar {
+        width: 125px;
+    }
+    .subscribeBtn{
+        padding: 0px 10px !important;
+    }
+  }

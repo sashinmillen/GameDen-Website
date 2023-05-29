@@ -1,0 +1,57 @@
+.sectionTitle {
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Manrope Variable', sans-serif;
+    letter-spacing: 1.4px;
+    color: #3788F2;
+    text-transform: uppercase;
+    border-radius: 0;
+    background: #35425E !important;
+    border: 1px solid #3788F2;
+    margin-bottom: 30px;
+}
+
+.container {
+    padding-top: 90px;
+    color: white;
+}
+
+.container h1 {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: ClashDisplay-Semibold;
+}
+
+.container p {
+    font-size: 16px;
+    padding-bottom: 50px;
+    font-family: 'Manrope Variable', sans-serif;
+
+}
+
+@font-face {
+    font-family: ClashDisplay-Semibold;
+    src: url(../../fonts/ClashDisplay-Semibold.otf);
+  }
+
+
+  
+@media only screen and (max-width: 600px) {
+    .container {
+        padding-top: 10px;
+        color: white;
+    }
+    
+    .container h1 {
+        font-size: 45px;
+        font-weight: bold;
+        font-family: ClashDisplay-Semibold;
+    }
+    
+    .container p {
+        font-size: 16px;
+        padding-bottom: 50px;
+        font-family: 'Manrope Variable', sans-serif;
+    
+    }
+  }

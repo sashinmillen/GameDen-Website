@@ -1,0 +1,75 @@
+.featured {
+    height: 100vh;
+    background: rgba(52, 53, 65, 0.87) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: relative;
+}
+
+.cards {
+    width: 392px;
+    border-radius: 0px;
+    background-color: #020312;
+    color: white;
+    /* padding: 5px; */
+    height: 100%;
+}
+
+.badgeTitle {
+    text-align: center;
+    opacity: 1;
+    border-radius: 0;
+    background-color: #1C1D2A !important;
+    border: none;
+    opacity: 1;
+}
+
+.previousButton {
+    position: absolute;
+    top: 55%;
+    left: 12%;
+    background-color: transparent ;
+    border: none;
+    color: #999AA0;
+    font-size: 30px;
+
+}
+
+.nextButton {
+    position: absolute;
+    top: 55%;
+    right: 14%;
+    background-color: transparent;
+    border: none;
+    color: #999AA0;
+    font-size: 30px;
+
+}
+
+
+@media (min-width: 500px) and (max-width: 1700px) {
+    .previousButton {
+        position: absolute;
+        top: 55%;
+        left: 5%;
+    }
+    
+    .nextButton {
+        position: absolute;
+        top: 55%;
+        right: 7%;
+    }
+  }
+
+  @media (min-width: 100px) and (max-width: 500px) {
+    .previousButton {
+        position: absolute;
+        top: 55%;
+        left: 2%;
+    }
+    
+    .nextButton {
+        position: absolute;
+        top: 55%;
+        right: 3%;
+    }
+  }
