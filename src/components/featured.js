@@ -123,7 +123,7 @@ const Featured = () => {
               <Button
                 className="bg-transparent p-0 mt-auto border-0 fw-bold"
                 style={{ color: "#B537F2" }}
-                href={games[0].link}
+                href={games[1].link}
               >
                 Play now <BsFillCaretRightFill style={{ color: "#B537F2" }} />
               </Button>
@@ -148,7 +148,7 @@ const Featured = () => {
               <Button
                 className="bg-transparent p-0 mt-auto border-0 fw-bold"
                 style={{ color: "#B537F2" }}
-                href={games[0].link}
+                href={games[2].link}
               >
                 Play now <BsFillCaretRightFill style={{ color: "#B537F2" }} />
               </Button>
@@ -156,23 +156,23 @@ const Featured = () => {
           </Card>
         </Carousel>
 
-        <Button
+        <button
           className={styles.previousButton}
           onClick={() => {
             carouselRef.previous()
           }}
         >
           <BsFillCaretLeftFill />
-        </Button>
+        </button>
 
-        <Button
+        <button
           className={styles.nextButton}
           onClick={() => {
             carouselRef.next()
           }}
         >
           <BsFillCaretRightFill />
-        </Button>
+        </button>
       </Container>
     </div>
   )

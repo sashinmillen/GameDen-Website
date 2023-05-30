@@ -36,7 +36,7 @@ const Header = () => {
     <div>
       <Navbar bg="dark" variant="dark" expand="lg" className={styles.navbar}>
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <Logo />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -51,11 +51,11 @@ const Header = () => {
               ))}
             </Nav>
 
-            <Nav.Link className="text-light pe-4" href="#home">
+            <Nav.Link className="text-light pe-4" href="#">
               Login
             </Nav.Link>
             <div className="d-block d-sm-none p-3" />
-            <Nav.Link className="text-light" href="#features">
+            <Nav.Link className="text-light" href="#">
               <Button ButtonName="Get started" />
             </Nav.Link>
           </Navbar.Collapse>

@@ -83,16 +83,30 @@ const Footer = () => {
             <Logo />
             <p className="my-4">{description}</p>
             <p>
-              <StaticImage src="../images/icons/phone.svg" alt="" /> {ContactNo}
+              <StaticImage src="../images/icons/phone.svg" alt="" />{" "}
+              <a
+                className="text-white text-decoration-none"
+                href={`tel:${ContactNo}`}
+              >
+                {ContactNo}
+              </a>
             </p>
 
             <p>
-              <StaticImage src="../images/icons/email.svg" alt="" /> {Email}
+              <StaticImage src="../images/icons/email.svg" alt="" />{" "}
+              <a
+                className="text-white text-decoration-none"
+                href={`mailto:${Email}`}
+              >
+                {Email}
+              </a>
             </p>
 
             <p>
               <StaticImage src="../images/icons/location.svg" alt="" />{" "}
-              {Address}
+              <a className="text-white text-decoration-none" href="">
+                {Address}
+              </a>
             </p>
           </Col>
 
@@ -102,32 +116,67 @@ const Footer = () => {
                 <div className="d-block d-sm-none p-3" />
                 <h6 className="pt-2 text-uppercase">SOCIAL LINKS</h6>
                 {quicklinks.map(quicklink => (
-                  <div className="mt-2">{quicklink.name} </div>
+                  <div className="mt-2">
+                    {" "}
+                    <a
+                      className="text-white text-decoration-none"
+                      href={`/${quicklink.name.toLowerCase()}`}
+                    >
+                      {quicklink.name}
+                    </a>{" "}
+                  </div>
                 ))}
 
                 <h6 className="pt-2 text-uppercase my-4">Quick Links</h6>
-                <StaticImage
-                  src="../images/icons/facebook.svg"
-                  className="me-2"
-                  alt=""
-                />
-                <StaticImage
-                  src="../images/icons/instagram.svg"
-                  className="me-2"
-                  alt=""
-                />
-                <StaticImage
-                  src="../images/icons/linkedin.svg"
-                  className="me-2"
-                  alt=""
-                />
+                <a
+                  className="text-white text-decoration-none"
+                  href="https://www.facebook.com"
+                  target="blank"
+                >
+                  <StaticImage
+                    src="../images/icons/facebook.svg"
+                    className="me-2"
+                    alt=""
+                  />
+                </a>
+
+                <a
+                  className="text-white text-decoration-none"
+                  href="https://www.instagram.com"
+                  target="blank"
+                >
+                  <StaticImage
+                    src="../images/icons/instagram.svg"
+                    className="me-2"
+                    alt=""
+                  />
+                </a>
+
+                <a
+                  className="text-white text-decoration-none"
+                  href="https://www.linkedin.com"
+                  target="blank"
+                >
+                  <StaticImage
+                    src="../images/icons/linkedin.svg"
+                    className="me-2"
+                    alt=""
+                  />
+                </a>
               </Col>
 
               <Col md={3}>
                 <div className="d-block d-sm-none p-3" />
                 <h6 className="pt-2 text-uppercase">Resources</h6>
                 {resources.map(resource => (
-                  <div className="mt-2">{resource.name} </div>
+                  <div className="mt-2">
+                    <a
+                      className="text-white text-decoration-none"
+                      href={`/${resource.name.toLowerCase()}`}
+                    >
+                      {resource.name}
+                    </a>{" "}
+                  </div>
                 ))}
               </Col>
 
@@ -135,7 +184,14 @@ const Footer = () => {
                 <div className="d-block d-sm-none p-3" />
                 <h6 className="pt-2 text-uppercase">Branches</h6>
                 {branches.map(branch => (
-                  <div className="mt-2">{branch.name} </div>
+                  <div className="mt-2">
+                    <a
+                      className="text-white text-decoration-none"
+                      href={`/${branch.name.toLowerCase()}`}
+                    >
+                      {branch.name}
+                    </a>{" "}
+                  </div>
                 ))}
               </Col>
 
@@ -143,7 +199,14 @@ const Footer = () => {
                 <div className="d-block d-sm-none p-3" />
                 <h6 className="pt-2 text-uppercase">legal</h6>
                 {legal.map(legallink => (
-                  <div className="mt-2">{legallink.name}</div>
+                  <div className="mt-2">
+                    <a
+                      className="text-white text-decoration-none"
+                      href={`/${legallink.name.toLowerCase()}`}
+                    >
+                      {legallink.name}
+                    </a>
+                  </div>
                 ))}
               </Col>
             </Row>

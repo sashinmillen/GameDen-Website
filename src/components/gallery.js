@@ -53,6 +53,7 @@ const Gallery = () => {
         </Row>
         <div className="p-4 justify-content-center align-items-center text-center ">
           <Button
+            href="#"
             className="bg-transparent p-0 mt-auto border-0"
             style={{ color: "#B537F2", fontFamily: "Manrope Variable" }}
           >

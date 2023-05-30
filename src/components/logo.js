@@ -1,10 +1,8 @@
 import React from "react"
-import { StaticImage } from "gatsby-plugin-image"
+import img from "../images/Logo/gameden-logo.png"
 
 const Logo = () => {
-  return (
-    <StaticImage src="../images/logo/gameden-logo.png" alt="logo" height={75} />
-  )
+  return <img src={img} alt="logo" />
 }
 
 export default Logo

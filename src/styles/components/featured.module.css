@@ -51,12 +51,20 @@
         position: absolute;
         top: 55%;
         left: 5%;
-    }
+    } 
     
     .nextButton {
         position: absolute;
         top: 55%;
         right: 7%;
+    }
+
+    .cards {
+        width: 100%;
+        border-radius: 0px;
+        background-color: #020312;
+        color: white;
+        height: 100%;
     }
   }
 
