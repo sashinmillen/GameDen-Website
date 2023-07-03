@@ -1,0 +1,311 @@
+@import url('https://fonts.cdnfonts.com/css/manrope');
+@import url('https://fonts.cdnfonts.com/css/clash-display');
+
+.body{
+    background: radial-gradient(49.09% 42.62% at 99.09% 99.22%, rgba(41, 73, 163, 0.2) 52.26%, rgba(0, 0, 0, 0.2) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(51.67% 45.47% at 21.06% 19.56%, #170426 0%, #450578 0%, #36045D 0%, #2C034D 0%, #000000 0.01%, #200634 0.02%, #000000 93.23%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+}
+.mainNav {
+    background: rgba(0, 0, 0, 0.84) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(11px);
+}
+.color{
+    border-radius: 0px;
+    background: #B537F2;
+    opacity: 1;
+    border: none;
+}
+.button{
+    width: 137px;
+    height: 40px;
+}
+.button-book{
+    width: 219px;
+    height: 48px;
+}
+.color:hover, color:active{
+    background: transparent linear-gradient(106deg, #B537F2 0%, #3788F2 100%) 0% 0% no-repeat padding-box;
+    /*opacity: 1;*/
+}
+.font{
+    /* UI Properties */
+    text-align: center;
+    font: normal normal 16px/22px Manrope;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.login{
+    text-align: left;
+    margin-right: 2%;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    text-decoration: none;
+    cursor: pointer;
+}
+.title-font{
+    text-align: left;
+    font: normal normal 600 91px/96px Clash Display;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+@media only screen and (max-width: 766px) {
+    .title-font{
+        font: normal normal 600 40px/40px Clash Display;
+        /*position: absolute;*/
+    }
+}
+.title-font2{
+    text-align: left;
+    font: normal normal 600 91px/96px Clash Display;
+    letter-spacing: 0px;
+    background: -webkit-linear-gradient(60deg, #B537F2 0%, #3788F2 100%) 0% 0% no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media only screen and (max-width: 766px) {
+    .title-font2{
+        font: normal normal 600 40px/40px Clash Display;
+        /*position: absolute;*/
+    }
+}
+.title-font2-explore-game{
+    text-align: left;
+    font: normal normal bold 16px/22px Manrope;
+    letter-spacing: 0px;
+    margin-top: 5%;
+    color: #B537F2;
+    opacity: 1;
+    cursor: pointer;
+    text-decoration: none;
+}
+.title-font2-explore-game-align{
+    margin-top: 10%;
+}
+
+.title-font2-explore-game:hover, title-font2-explore-game:active {
+    color: #B537F2;
+}
+.hedder-font3{
+    font: normal normal bold 16px/22px Manrope;
+    letter-spacing: 0px;
+    color: #B537F2;
+    opacity: 1;
+}
+.background-image{
+    margin-left: 5%;
+    background: url('../img/hero-image/hero-image.png') no-repeat;
+    opacity: 1;
+    max-width: 640px;
+    height: 600px;
+    position: relative;
+    background-size: cover;
+}
+@media only screen and (max-width: 1412px) {
+    .background-image {
+        margin-left: auto;
+        margin-top: auto;
+    }
+}@media only screen and (max-width: 766px) {
+    .background-image {
+       background-image: inherit;
+        width: 100%;
+        /*position: absolute;*/
+    }
+}
+.sub-title{
+    text-align: left;
+    font: normal normal normal 16px/24px Manrope;
+    letter-spacing: 0px;
+    color: #CCCCCF;
+    opacity: 1;
+}
+.section-2{
+    background: rgba(52, 53, 65, 0.87) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.featured{
+    text-align: center;
+    font: normal normal bold 14px/24px Manrope;
+    letter-spacing: 1.4px;
+    color: #3788F2;
+    text-transform: uppercase;
+    opacity: 1;
+    border-radius: 0;
+    background: #3788F229 0% 0% no-repeat padding-box;
+    border: 1px solid #3788F2;
+    opacity: 1;
+}
+.featured:hover, featured:active{
+    color: #3788F2;
+    opacity: 1;
+    background: #3788F229 0% 0% no-repeat padding-box;
+    border: 1px solid #3788F2;
+}
+.find-the-best-out-there{
+    text-align: center;
+    font: normal normal 600 60px/65px Clash Display;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.container2-2nd{
+    text-align: center;
+    font: normal normal normal 16px/24px Manrope;
+    letter-spacing: 0px;
+    color: #CCCCCF;
+    opacity: 1;
+}
+
+.row2 {
+    /*padding: 10px;*/
+    padding: 6px;
+}
+.item{
+    padding: 10px;
+    margin-top: -20px;
+}
+
+.column2 {
+    flex: 0%;
+
+}
+.column2 img{
+    margin-top: 8px;
+}
+.section-3{
+
+    background: radial-gradient(42.88% 42.88% at -15.61% -38.08%, rgba(44, 3, 77, 0.2) 0%, rgba(44, 3, 77, 0.2) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, linear-gradient(0deg, rgba(41, 73, 163, 0.12), rgba(41, 73, 163, 0.12)), radial-gradient(24.15% 24.61% at -1.67% 57.64%, rgba(41, 73, 163, 0.142) 23.2%, rgba(0, 0, 0, 0.2) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(53.03% 58.01% at 124.39% 8.16%, #2C034D 0%, #08010D 9.07%, #200634 15.01%, #170426 67.43%, #000000 90.94%, #000000 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+}
+.card-1{
+    /*width: 1224px;*/
+    height: 443px;
+    border-radius: 0;
+    background: transparent linear-gradient(111deg, #B537F2 0%, #3788F2 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.card1-content{
+    margin-top: 6%;
+}
+@media only screen and (max-width: 766px) {
+    .card1-content{
+        font: normal normal 600 50px/40px Clash Display;
+        /*position: absolute;*/
+    }
+}
+.subscribe-input{
+    width: 275px;
+    height: 48px;
+    background: #FFFFFF0D 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF66;
+    opacity: 1;
+    border-radius: 0;
+    outline: none;
+}
+.subscribe-input-text{
+    text-align: left;
+    font: normal normal normal 16px/24px Manrope;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.4;
+    text-align: justify;
+    padding-left: 10px;
+}
+@media only screen and (max-width: 766px) {
+    .subscribe-input-text{
+        width: 70%;
+        height: auto;
+        font-size: 10px;
+    }
+}
+.subscribe-input::placeholder{
+    /* Firefox, Chrome, Opera */
+    color: white;
+}
+.subscribe-button-color{
+    color: #FFFFFF;
+    width: 129px;
+    height: 48px;
+    background: #020312 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 0;
+    border: none;
+}
+@media only screen and (max-width: 766px) {
+    .subscribe-button-color{
+        width: 49px;
+        height: auto;
+        font-size: 6px;
+    }
+}
+.footer-image{
+    width: 40%;
+}
+.footer-paragraph1{
+    text-align: left;
+    font: normal normal normal 12px/21px Manrope;
+    letter-spacing: 0px;
+    color: #999AA0;
+    opacity: 1;
+}
+.footer-points{
+    text-align: left;
+    font: normal normal normal 16px/24px Manrope;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    text-decoration: none;
+}
+.footer-sub-title{
+    text-align: left;
+    font: normal normal bold 14px/24px Manrope;
+    letter-spacing: 1.4px;
+    color: #999AA0;
+    text-transform: uppercase;
+    opacity: 1;
+}
+@media only screen and (max-width: 566px) {
+    .footer-sub-title{
+        text-align: center;
+        font: normal normal bold 10px/10px Manrope;
+        letter-spacing: 1.4px;
+        color: #999AA0;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+}
+
+.social-media-icons{
+    margin: 10px;
+}
+.card-background{
+    background: #020312 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.card-title-font{
+    text-align: left;
+    font: normal normal 600 24px/29px Clash Display;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.card-subtitle-font{
+    text-align: left;
+    font: normal normal normal 16px/24px Manrope;
+    letter-spacing: 0px;
+    color: #CCCCCF;
+    opacity: 1;
+}
+.copyright{
+    text-align: center;
+    font: normal normal normal 16px/24px Manrope;
+    letter-spacing: 0px;
+    color: #999AA0;
+    opacity: 1;
+}
